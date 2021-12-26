@@ -1,4 +1,6 @@
-## Brainlets
+## Brainlets_FDG
+
+This fork of asotiras/brainparts includes experimental work implementing the original brainparts for use with positron emission tomography, {18}^F-deoxy-glucose, and Alzheimer's Disease.  
 
 Matlab code for calculating non-negative components from brain imaging data.
 
