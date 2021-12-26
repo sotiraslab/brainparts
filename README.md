@@ -2,6 +2,8 @@
 
 This fork of asotiras/brainparts includes experimental work implementing the original brainparts for use with positron emission tomography, {18}^F-deoxy-glucose, and Alzheimer's Disease.  
 
+----
+
 Matlab code for calculating non-negative components from brain imaging data.
 
 The first matlab functions (opnmf.m and opnmf_mem.m) implement the orthogonal projective non-negative matrix factorization. The only difference between them is that the order of the matrix multiplications in the multiplicative update rule of opnmf_mem.m function has been rearranged so that high dimensional imaging data can used. For low dimensional data, the function opnmf.m should be faster. Note that in both functions, at every iteration, really low values are thresholded out as they result in increased computational cost.
